@@ -34,12 +34,12 @@ import BanglaFastText
 #there are two variation of training methods cbow and skipgram. 
 
 # Skipgram model :
->>> Bn = BanglaFastText(method='skipgram', path = './content/model/')
+>>> Bn = BanglaFastText.BanglaFasttext(method='skipgram', path = './content/model/')
 # 'path' is the directory to save the downloaded model
 >>> model = Bn.model_load()
 
 # or, cbow model :
->>> Bn = BanglaFastText(method='cbow', path = './content/model/')
+>>> Bn = BanglaFastText.BanglaFasttext(method='cbow', path = './content/model/')
 >>> model = Bn.model_load()
 ```
 Where  `method parameter is to choose the training method and path is to save model.`
@@ -49,7 +49,7 @@ If we have already model then we can simply read and load the model as :
 
 ``` python
 # To read a model
->>> Bn = BanglaFastText(model_name = 'model_name')
+>>> Bn = BanglaFastText.BanglaFasttext(model_name = 'model_name')
 
 # to load the model as object we can
 >>> model = Bn.model_load()
