@@ -35,6 +35,7 @@ import BanglaFastText
 
 # Skipgram model :
 >>> Bn = BanglaFastText(method='skipgram', path = './content/model/')
+# 'path' is the directory to save the downloaded model
 >>> model = Bn.model_load()
 
 # or, cbow model :
