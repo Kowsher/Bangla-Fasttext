@@ -1,9 +1,9 @@
-<img align="center" alt="banglaLM" src="assets\data-original.png" width="100%" />
+
 <br>
 <br>
 
 # Introduction
-We have constructed a dataset that contains Bangla text data for training unsupervised ML model, and it contains around 14 GB of text data. One of the largest in Bengali Language model called `BanglaLM: Bangla Language Model Dataset`
+We have constructed a dataset that contains Bangla text data for training unsupervised ML model, and it contains around 14 GB of text data. One of the largest in Bengali Language model called `BanglaLM: Bangla Language Model Dataset`. The Bangla FastText model had been developed based on this dataset. We used google cloud to train model. We developed two models based on skipgram and cbow training method. This is open source python module to use these two models easily. We also developed sentence embedding systems for the using of sklearn classifiers. It showed better perfromance than facebook pretrained fasttext model on Bangla Wikidataset.
 ## Dataset (Bengali)
 
 ### Kaggle link for the dataset :
@@ -50,7 +50,7 @@ If you have already model then you can simply read and load the model as :
 
 ``` python
 # to read the model
->>> Bn = BanglaFastText(model = './content/model_name')
+>>> Bn = BanglaFastText(model_name = 'model_name')
 
 # to load the model as object you can
 >>> model = Bn.model_load()
