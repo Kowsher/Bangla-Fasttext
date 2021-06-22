@@ -10,12 +10,12 @@ We have constructed a dataset that contains Bangla text data for training unsupe
 
 
 # Installation
-To install the latest release, you can do :
+To install the latest release, we can do :
 
 ``` python
 !pip install BanglaFastText
 ```
-or, to get the latest development version of BanglaFastText, you can install from our github repository :
+or, to get the latest development version of BanglaFastText, we can install from our github repository :
 ``` python
 $ git clone https://github.com/username/BanglaFastText.git
 $ cd BanglaFastText
@@ -35,20 +35,22 @@ import BanglaFastText
 
 # Skipgram model :
 >>> Bn = BanglaFastText(method='skipgram', path = './content/model/')
+>>> model = Bn.model_load()
 
 # or, cbow model :
 >>> Bn = BanglaFastText(method='cbow', path = './content/model/')
+>>> model = Bn.model_load()
 ```
 Where  `method parameter is to choose the training method and path is to save model.`
 
 ## Loading a model object
-If you have already model then you can simply read and load the model as :
+If we have already model then we can simply read and load the model as :
 
 ``` python
-# to read the model
+# To read a model
 >>> Bn = BanglaFastText(model_name = 'model_name')
 
-# to load the model as object you can
+# to load the model as object we can
 >>> model = Bn.model_load()
 ```
 ## Playing with the parameters
