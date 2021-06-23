@@ -65,13 +65,13 @@ If we have already model then we can simply read and load the model as :
 >>> model.most_similar("দেশ")
 
 # to find word similarity
->>> word_similarity('কিতাব', 'বই')
+>>> Bn.word_similarity('কিতাব', 'বই')
 
 # to find sentence similarity
->>> sent_similarity('আমি দেশকে ভালোবাসি', 'অনেক সুন্দর আমাদের দেশ')
+>>> Bn.sent_similarity('আমি দেশকে ভালোবাসি', 'অনেক সুন্দর আমাদের দেশ')
 
 #  for sentence embedding 
 >>> corpus = ['আমি দেশকে ভালোবাসি', 'অনেক সুন্দর আমাদের দেশ']
->>> X = sent_embd(corpus)
+>>> X = Bn.sent_embd(corpus)
 ```
 
