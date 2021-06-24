@@ -78,6 +78,6 @@ If we have already model then we can simply read and load the model as :
  If we want to fine tuning or update weights by our dataset
 ``` python
 >>> corpus = ['আমি দেশকে ভালোবাসি', 'অনেক সুন্দর আমাদের দেশ']
->>> fine_tuning(self,corpus, epochs=5)
+>>> fine_tuning(corpus, epochs=5)
 >>> model = fine_tuning(corpus, epochs=5) # to get the model after finetuned 
 ```
