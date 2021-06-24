@@ -74,4 +74,8 @@ If we have already model then we can simply read and load the model as :
 >>> corpus = ['আমি দেশকে ভালোবাসি', 'অনেক সুন্দর আমাদের দেশ']
 >>> X = Bn.sent_embd(corpus)
 ```
-
+## Fine Tuning
+If we want to fine tuning or update weights by our dataset
+>>> corpus = ['আমি দেশকে ভালোবাসি', 'অনেক সুন্দর আমাদের দেশ']
+>>> fine_tuning(self,corpus, epochs=5)
+>>> model = fine_tuning(self,corpus, epochs=5) # to get the model after finetuned 
