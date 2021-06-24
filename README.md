@@ -79,5 +79,5 @@ If we have already model then we can simply read and load the model as :
 ``` python
 >>> corpus = ['আমি দেশকে ভালোবাসি', 'অনেক সুন্দর আমাদের দেশ']
 >>> fine_tuning(self,corpus, epochs=5)
->>> model = fine_tuning(self,corpus, epochs=5) # to get the model after finetuned 
+>>> model = fine_tuning(corpus, epochs=5) # to get the model after finetuned 
 ```
