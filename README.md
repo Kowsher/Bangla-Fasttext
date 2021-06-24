@@ -51,7 +51,7 @@ If we have already model then we can simply read and load the model as :
 
 ``` python
 # To read a model
->>> Bn = BanglaFastText.BanglaFasttext(model_name = 'model_name')
+>>> Bn = BanglaFastText.BanglaFasttext(model_path = './model_name')
 
 # to load the model as object we can
 >>> model = Bn.model_load()
