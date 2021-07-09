@@ -1,4 +1,4 @@
-<img align="center" alt="banglaLM" src="assets\data-original.png" width="100%" />
+<!-- <img align="center" alt="banglaLM" src="assets\data-original.png" width="100%" /> -->
 
 # Bangla FastText Model & Toolkit
 We have constructed a dataset that contains Bangla text data for training unsupervised ML model, and it contains around 14 GB of text data. One of the largest in Bengali Language model called `BanglaLM: Bangla Language Model Dataset`. The Bangla FastText model had been developed based on this dataset. We used google cloud to train model. We developed two models based on skipgram and cbow training method. This is open source python module to use these two models easily. We also developed sentence embedding systems for the using of sklearn classifiers. It showed better perfromance than facebook pretrained fasttext model on Bangla Wikidataset.
