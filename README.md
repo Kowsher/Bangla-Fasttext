@@ -42,12 +42,12 @@ import BanglaFastText
 #If want to save the model in manual path, we can by using 'sav_path' parameter.
 
 # Skipgram model :
->>> Bn = BanglaFastText.BanglaFasttext(method='skipgram', save_path = './content/model')
+>>> Bn = BanglaFastText.BanglaFasttext(method='skipgram', save_path = '/content/model')
 # 'path' is the directory to save the downloaded model
 >>> model = Bn.model_load()
 
 # or, cbow model :
->>> Bn = BanglaFastText.BanglaFasttext(method='cbow', save_path = './content/model')
+>>> Bn = BanglaFastText.BanglaFasttext(method='cbow', save_path = '/content/model')
 >>> model = Bn.model_load()
 ```
 Where  `method parameter is to choose the training method and path is to save model.`
