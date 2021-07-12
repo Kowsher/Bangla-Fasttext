@@ -6,13 +6,15 @@ We have constructed a dataset that contains Bangla text data for training unsupe
 
 ### Link for the dataset :
 -> Github: [BanglaLM: Bangla Corpus For Language Model Research](https://github.com/Kowsher/BanglaLM-Dataset)
+
 -> Kaggle: [BanglaLM: Bangla Corpus For Language Model Research](https://www.kaggle.com/gakowsher/bangla-language-model-dataset)
+
 ### Model link:
 [Bangla FastText](https://www.kaggle.com/gakowsher/bangla-fasttext)
 
 
 
-# Installation
+## Installation
 To install the latest release, we can do :
 
 ``` python
@@ -28,7 +30,7 @@ $ sudo python setup.py install
 ```
 For further information and introduction see README.md
 
-# Getting started
+## Getting started
 
 In order to learn word vectors, as described here, `BanglaFastText` function like this:
 ``` python
